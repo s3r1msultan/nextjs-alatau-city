@@ -1,0 +1,55 @@
+@import "@/styles/constants.scss";
+.footer {
+  padding: 110px 0 90px;
+  background: #252525;
+  position: relative;
+
+  a {
+    transition: all 0.3s ease-out;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: $accent-color-yellow;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__contact {
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer__right {
+    display: flex;
+    gap: 100px;
+    h6 {
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      color: #b9b9b9;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: normal;
+      gap: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.reason {
+  h2 {
+    color: #252525;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    max-width: 450px;
+
+    span {
+      color: $accent-color-yellow;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .invest_button {
+    background: url("/images/intro_button_bg.png") 0 0/100% 100% no-repeat;
+    padding: 8px 20px 18px 6px;
+    width: fit-content;
+    cursor: pointer;
+
+    button {
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      background: #fff;
+      color: #252525;
+      padding: 16px 30px;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 139.5%;
+      font-family: Montserrat, sans-serif;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      text-wrap: nowrap;
+      text-decoration: none !important;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+      padding: 40px 30px !important;
+      font-size: 24px !important;
+    }
+  }
+
+  .swiper__block {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+}
